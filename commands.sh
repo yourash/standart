@@ -2,6 +2,9 @@ sudo add-apt-repository ppa:nrbrtx/sysvinit-backlight
 sudo apt-get update
 sudo apt-get install sysvinit-backlight
 
+sudo apt-get install  python-xlib
+sudo apt-get install gdebi
+
 sudo add-apt-repository -y ppa:webupd8team/sublime-text-3
 sudo apt-get update; sudo apt-get install -y sublime-text-installer
 

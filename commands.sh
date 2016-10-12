@@ -1,7 +1,3 @@
-sudo add-apt-repository ppa:nrbrtx/sysvinit-backlight
-sudo apt-get update
-sudo apt-get install sysvinit-backlight
-
 sudo apt-get install  python-xlib
 sudo apt-get install gdebi
 
@@ -31,5 +27,9 @@ sudo apt-get install libgtk2.0-0:i386 gtk2-engines:i386 libgconf-2-4:i386
 sudo add-apt-repository "deb http://archive.canonical.com/ $(lsb_release -sc) partner"
 sudo apt-get update
 sudo apt-get install skype
+
+#sudo add-apt-repository ppa:nrbrtx/sysvinit-backlight
+#sudo apt-get update
+#sudo apt-get install sysvinit-backlight
 
 
